@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "aps\\Scripts\\python.exe",
+    "code-runner.executorMap": {
+        "python": "aps\\Scripts\\python.exe",
+    }
+}
