@@ -9,7 +9,7 @@ def cadastroController(img, nome, login, senha, nivelAcesso):
     verificarDigital = dao.existDigital(r[0], c[0])
     if verificarDigital == []:
         user = usuario.Usuario(nome, login, senha, nivelAcesso, r[0], c[0])
-        user = dao.create(user)
+        dao.create(user)
         return True
     else:
         return False

@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\vinic\Downloads\APS-6-semestre-main\APS-6-semestre-main\aps.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="aps [2]" uuid="d7344fa3-df8a-49e2-8829-2dfe675869d1">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Programação\Faculdade\APS-6-semestre-main\APS-6-semestre-main\APS-6-semestre-main\aps.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
