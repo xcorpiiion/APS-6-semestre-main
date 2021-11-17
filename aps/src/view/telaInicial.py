@@ -17,27 +17,27 @@ class TelaCadastro:
 
         '#Primeiro container da janela'
         self.primeiroContainer = tk.Frame(master)
-        self.primeiroContainer["bg"] = ("#BDECB6")
+        self.primeiroContainer["bg"] = ("#00B2FF")
         self.primeiroContainer.pack()
 
         '#Título'
         self.titulo = tk.Label(self.primeiroContainer)
         self.titulo["text"] = ("Ministério do Meio Ambiente")
         self.titulo["font"] = ("Britannic Bold", "16")
-        self.titulo["bg"] = ("#BDECB6")
+        self.titulo["bg"] = ("#00B2FF")
         self.titulo["fg"] = ("#32471F")
         self.titulo.grid(rowspan=2, pady=35)
 
         '#Traçado abaixo do título'
         self.barra = tk.Label(self.primeiroContainer, text="_______________")
         self.barra["font"] = ("Arial", "14", "bold")
-        self.barra["bg"] = ("#BDECB6")
+        self.barra["bg"] = ("#00B2FF")
         self.barra["fg"] = ("#32471F")
         self.barra.grid(row=1, column=0, rowspan=2)
 
         '#Segundo container da janela '
         self.segundoContainer = tk.Frame(master)
-        self.segundoContainer["bg"] = ("#BDECB6")
+        self.segundoContainer["bg"] = ("#00B2FF")
         self.segundoContainer.pack()
 
         '#Descrição'
@@ -45,12 +45,12 @@ class TelaCadastro:
         self.descricao["text"] = ("Por favor insira seus dados abaixo:")
         self.descricao["fg"] = ("#5E8300")
         self.descricao["font"] = ("Britannic Bold", "11")
-        self.descricao["bg"] = ("#BDECB6")
+        self.descricao["bg"] = ("#00B2FF")
         self.descricao.grid(row=2, column=1, pady=5)
 
         '#Terceiro container da janela'
         self.terceiroContainer = tk.Frame(master)
-        self.terceiroContainer["bg"] = ("#BDECB6")
+        self.terceiroContainer["bg"] = ("#00B2FF")
         self.terceiroContainer.pack()
 
         '#Nome'
@@ -58,7 +58,7 @@ class TelaCadastro:
         self.nome["text"] = ("Nome:")
         self.nome["fg"] = ("#32471F")
         self.nome["font"] = ("Britannic Bold", "11")
-        self.nome["bg"] = ("#BDECB6")
+        self.nome["bg"] = ("#00B2FF")
         self.nome.grid(row=2, column=1, pady=5)
 
         '#Campo do nome'
@@ -69,7 +69,7 @@ class TelaCadastro:
 
         '#Quarto container da janela'
         self.quartoContainer = tk.Frame(master)
-        self.quartoContainer["bg"] = ("#BDECB6")
+        self.quartoContainer["bg"] = ("#00B2FF")
         self.quartoContainer.pack()
 
         '#Senha e configurações'
@@ -77,7 +77,7 @@ class TelaCadastro:
         self.senha["text"] = ("Senha:")
         self.senha["fg"] = ("#32471F")
         self.senha["font"] = ("Britannic Bold", "11")
-        self.senha["bg"] = ("#BDECB6")
+        self.senha["bg"] = ("#00B2FF")
         self.senha.grid(row=3, column=1, pady=5)
 
         '#Campo do senha'
@@ -89,7 +89,7 @@ class TelaCadastro:
 
         '#Quinto container da janela'
         self.quintoContainer = tk.Frame(master)
-        self.quintoContainer["bg"] = ("#BDECB6")
+        self.quintoContainer["bg"] = ("#00B2FF")
         self.quintoContainer.pack()
 
         '#Login e configurações'
@@ -97,7 +97,7 @@ class TelaCadastro:
         self.login["text"] = ("Login:")
         self.login["fg"] = ("#32471F")
         self.login["font"] = ("Britannic Bold", "11")
-        self.login["bg"] = ("#BDECB6")
+        self.login["bg"] = ("#00B2FF")
         self.login.grid(row=4, column=1)
 
         '#Campo do login'
@@ -108,7 +108,7 @@ class TelaCadastro:
 
         '#Sexto container da janela'
         self.sextoContainer = tk.Frame(master)
-        self.sextoContainer["bg"] = ("#BDECB6")
+        self.sextoContainer["bg"] = ("#00B2FF")
         self.sextoContainer.pack(pady=10)
 
         '#Niveis de acesso'
@@ -116,7 +116,7 @@ class TelaCadastro:
         self.acesso["text"] = ("Nível de acesso:")
         self.acesso["fg"] = ("#32471F")
         self.acesso["font"] = ("Britannic Bold", "11")
-        self.acesso["bg"] = ("#BDECB6")
+        self.acesso["bg"] = ("#00B2FF")
         self.acesso.grid(row=5, column=1)
 
         '#Niveis de acesso'
@@ -129,7 +129,7 @@ class TelaCadastro:
 
         '#Setimo container da janela'
         self.setimoContainer = tk.Frame(master)
-        self.setimoContainer["bg"] = ("#BDECB6")
+        self.setimoContainer["bg"] = ("#00B2FF")
         self.setimoContainer.pack(pady=1)
 
         '#Popup do nível de acesso'
@@ -137,22 +137,22 @@ class TelaCadastro:
         self.popup["text"] = ("Não conhece o seu nível de acesso?Clique aqui.")
         self.popup["command"] = self.mensagemAcesso
         self.popup["bd"] = 0
-        self.popup["activebackground"] = ("#BDECB6")
+        self.popup["activebackground"] = ("#00B2FF")
         self.popup["font"] = ("calibri", "9", "bold")
         self.popup["fg"] = ("#5E8300")
-        self.popup["bg"] = ("#BDECB6")
+        self.popup["bg"] = ("#00B2FF")
         self.popup.grid(row=6, column=1)
 
         '#Traçado abaixo do nível de acesso'
         self.barra = tk.Label(self.setimoContainer, text="_______")
         self.barra["font"] = ("Arial", "14", "bold")
-        self.barra["bg"] = ("#BDECB6")
+        self.barra["bg"] = ("#00B2FF")
         self.barra["fg"] = ("#32471F")
         self.barra.grid(row=7, column=1, rowspan=10, pady=25)
 
         '#Nono container da janela'
         self.nonoContainer = tk.Frame(master)
-        self.nonoContainer["bg"] = ("#BDECB6")
+        self.nonoContainer["bg"] = ("#00B2FF")
         self.nonoContainer.pack(pady=1)
 
         '#Biometria'
@@ -160,7 +160,7 @@ class TelaCadastro:
         self.biometria["text"] = ("Digital:")
         self.biometria["fg"] = ("#32471F")
         self.biometria["font"] = ("Britannic Bold", "11")
-        self.biometria["bg"] = ("#BDECB6")
+        self.biometria["bg"] = ("#00B2FF")
         self.biometria.grid(row=8, column=1, pady=20)
 
         '#Botão da biometria'
@@ -169,15 +169,15 @@ class TelaCadastro:
         self.campoBiometria["width"] = 29
         self.campoBiometria["command"] = self.abrirArquivo
         self.campoBiometria["bd"] = 0
-        self.campoBiometria["activebackground"] = ("#BDECB6")
+        self.campoBiometria["activebackground"] = ("#00B2FF")
         self.campoBiometria["font"] = ("calibri", "10", "bold")
         self.campoBiometria["fg"] = ("#5E8300")
-        self.campoBiometria["bg"] = ("#BDECB6")
+        self.campoBiometria["bg"] = ("#00B2FF")
         self.campoBiometria.grid(row=8, column=2, pady=20)
 
         '#Nono container da janela'
         self.decimoContainer = tk.Frame(master)
-        self.decimoContainer["bg"] = ("#BDECB6")
+        self.decimoContainer["bg"] = ("#00B2FF")
         self.decimoContainer.pack(pady=1)
 
         '#Botão Cadastrar'
@@ -186,7 +186,7 @@ class TelaCadastro:
         self.cadastrar["width"] = 10
         self.cadastrar["height"] = 1
         self.cadastrar["bg"] = ("#32471F")
-        self.cadastrar["activebackground"] = ("#BDECB6")
+        self.cadastrar["activebackground"] = ("#00B2FF")
         self.cadastrar["fg"] = ("white")
         self.cadastrar["font"] = ("Britannic Bold", "11")
         self.cadastrar.grid(row=9, column=1, pady=50, padx=30)
@@ -197,8 +197,8 @@ class TelaCadastro:
         self.voltar["bd"] = 0
         self.voltar["width"] = 12
         self.voltar["height"] = 1
-        self.voltar["bg"] = ("#BDECB6")
-        self.voltar["activebackground"] = ("#BDECB6")
+        self.voltar["bg"] = ("#00B2FF")
+        self.voltar["activebackground"] = ("#00B2FF")
         self.voltar["fg"] = ("#32471F")
         self.voltar["font"] = ("Britannic Bold", "11")
         self.voltar.grid(row=9, column=0, columnspan=1, pady=50)
@@ -207,7 +207,7 @@ class TelaCadastro:
         '#Configurações do Frame'
         self.nova.resizable(0, 0)
         self.nova.geometry('350x550')
-        self.nova.config(bg="#BDECB6")
+        self.nova.config(bg="#00B2FF")
 
     '#Função de chamada do Popup'
 
@@ -280,27 +280,27 @@ class TelaUsuario:
 
         '#Primeiro container da janela'
         self.primeiroContainer = tk.Frame(master)
-        self.primeiroContainer["bg"] = ("#BDECB6")
+        self.primeiroContainer["bg"] = ("#00B2FF")
         self.primeiroContainer.pack()
 
         '#Título'
         self.titulo = tk.Label(self.primeiroContainer,
                                text="Ministério do Meio Ambiente")
         self.titulo["font"] = ("Britannic Bold", "16")
-        self.titulo["bg"] = ("#BDECB6")
+        self.titulo["bg"] = ("#00B2FF")
         self.titulo["fg"] = ("#32471F")
         self.titulo.grid(rowspan=2, pady=35)
 
         '#Traçado abaixo do título'
         self.barra = tk.Label(self.primeiroContainer, text="_______________")
         self.barra["font"] = ("Arial", "16", "bold")
-        self.barra["bg"] = ("#BDECB6")
+        self.barra["bg"] = ("#00B2FF")
         self.barra["fg"] = ("#32471F")
         self.barra.grid(row=1, column=0, rowspan=2)
 
         '#Segundo container da janela'
         self.segundoContainer = tk.Frame(master)
-        self.segundoContainer["bg"] = ("#BDECB6")
+        self.segundoContainer["bg"] = ("#00B2FF")
         self.segundoContainer.pack()
 
         '#Descrição'
@@ -308,12 +308,12 @@ class TelaUsuario:
         self.descricao["text"] = ("Seja bem-vindo!")
         self.descricao["fg"] = ("#5E8300")
         self.descricao["font"] = ("Britannic Bold", "14")
-        self.descricao["bg"] = ("#BDECB6")
+        self.descricao["bg"] = ("#00B2FF")
         self.descricao.grid(row=2, column=0)
 
         '#Segundo container da janela'
         self.terceiroContainer = tk.Frame(master)
-        self.terceiroContainer["bg"] = ("#BDECB6")
+        self.terceiroContainer["bg"] = ("#00B2FF")
         self.terceiroContainer.pack()
 
         '#Descrição'
@@ -321,12 +321,12 @@ class TelaUsuario:
         self.descricao["text"] = ("Você está logado na nossa plataforma.")
         self.descricao["fg"] = ("#5E8300")
         self.descricao["font"] = ("Britannic Bold", "11")
-        self.descricao["bg"] = ("#BDECB6")
+        self.descricao["bg"] = ("#00B2FF")
         self.descricao.grid(row=3, column=1, pady=5)
 
         '#Quarto container da janela'
         self.quartoContainer = tk.Frame(master)
-        self.quartoContainer["bg"] = ("#BDECB6")
+        self.quartoContainer["bg"] = ("#00B2FF")
         self.quartoContainer.pack(pady=40)
 
         '#Nome'
@@ -334,7 +334,7 @@ class TelaUsuario:
         self.nome["text"] = ("Nome:")
         self.nome["fg"] = ("#32471F")
         self.nome["font"] = ("Britannic Bold", "11")
-        self.nome["bg"] = ("#BDECB6")
+        self.nome["bg"] = ("#00B2FF")
         self.nome.grid(row=4, column=0)
 
         '#Usuario'
@@ -342,7 +342,7 @@ class TelaUsuario:
         self.nomeUsuario["text"] = user.nome
         self.nomeUsuario["fg"] = ("#808080")
         self.nomeUsuario["font"] = ("Britannic Bold", "11", "italic")
-        self.nomeUsuario["bg"] = ("#BDECB6")
+        self.nomeUsuario["bg"] = ("#00B2FF")
         self.nomeUsuario.grid(row=4, column=1)
 
         '#Nivel de acesso'
@@ -350,7 +350,7 @@ class TelaUsuario:
         self.nivelAcesso["text"] = ("Nivel de acesso:")
         self.nivelAcesso["fg"] = ("#32471F")
         self.nivelAcesso["font"] = ("Britannic Bold", "11")
-        self.nivelAcesso["bg"] = ("#BDECB6")
+        self.nivelAcesso["bg"] = ("#00B2FF")
         self.nivelAcesso.grid(row=6, column=0)
 
         '#Nivel de acesso do usuario'
@@ -358,12 +358,12 @@ class TelaUsuario:
         self.nivelUsuario["text"] = user.nivelAcesso
         self.nivelUsuario["fg"] = ("#808080")
         self.nivelUsuario["font"] = ("Britannic Bold", "11", "italic")
-        self.nivelUsuario["bg"] = ("#BDECB6")
+        self.nivelUsuario["bg"] = ("#00B2FF")
         self.nivelUsuario.grid(row=6, column=1)
 
         '#Quinto container da janela'
         self.quintoContainer = tk.Frame(master)
-        self.quintoContainer["bg"] = ("#BDECB6")
+        self.quintoContainer["bg"] = ("#00B2FF")
         self.quintoContainer.pack()
 
         '#Botão relatório'
@@ -371,8 +371,8 @@ class TelaUsuario:
         self.relatório["bd"] = 0
         self.relatório["width"] = 12
         self.relatório["height"] = 1
-        self.relatório["bg"] = ("#BDECB6")
-        self.relatório["activebackground"] = ("#BDECB6")
+        self.relatório["bg"] = ("#00B2FF")
+        self.relatório["activebackground"] = ("#00B2FF")
         self.relatório["fg"] = ("#32471F")
         self.relatório["font"] = ("Britannic Bold", "11")
         self.relatório["command"] = self.abrirRelatorio
@@ -380,7 +380,7 @@ class TelaUsuario:
 
         '#Sexto container da janela'
         self.sextoContainer = tk.Frame(master)
-        self.sextoContainer["bg"] = ("#BDECB6")
+        self.sextoContainer["bg"] = ("#00B2FF")
         self.sextoContainer.pack()
 
         '#Botão voltar'
@@ -388,8 +388,8 @@ class TelaUsuario:
         self.voltar["bd"] = 0
         self.voltar["width"] = 12
         self.voltar["height"] = 1
-        self.voltar["bg"] = ("#BDECB6")
-        self.voltar["activebackground"] = ("#BDECB6")
+        self.voltar["bg"] = ("#00B2FF")
+        self.voltar["activebackground"] = ("#00B2FF")
         self.voltar["fg"] = ("#32471F")
         self.voltar["font"] = ("Britannic Bold", "11")
         self.voltar["command"] = self.voltarUsuario
@@ -398,16 +398,16 @@ class TelaUsuario:
         '#Configurações do Frame'
         self.nova.resizable(0, 0)
         self.nova.geometry('350x450')
-        self.nova.config(bg="#BDECB6")
+        self.nova.config(bg="#00B2FF")
 
     def voltarUsuario(self):
         self.origem.deiconify()
         self.nova.destroy()
-    
+
     def abrirRelatorio(self):
         texto = textoNiveisController.textoNivelAcessoController(self.user.nivelAcesso)
         messagebox.showinfo(title="Ministério do Meio Ambiente ",
-                            message= texto)
+                            message=texto)
 
 
 class TelaIncial:
@@ -419,27 +419,27 @@ class TelaIncial:
 
         '#Primeiro container da janela'
         self.primeiroContainer = tk.Frame(master)
-        self.primeiroContainer["bg"] = ("#BDECB6")
+        self.primeiroContainer["bg"] = ("#00B2FF")
         self.primeiroContainer.pack()
 
         '#Título'
         self.titulo = tk.Label(self.primeiroContainer)
         self.titulo["text"] = ("Ministério do Meio Ambiente")
         self.titulo["font"] = ("Britannic Bold", "16")
-        self.titulo["bg"] = ("#BDECB6")
+        self.titulo["bg"] = ("#00B2FF")
         self.titulo["fg"] = ("#32471F")
         self.titulo.grid(rowspan=2, pady=35)
 
         '#Traçado abaixo do título'
         self.barra = tk.Label(self.primeiroContainer, text="_______________")
         self.barra["font"] = ("Arial", "14", "bold")
-        self.barra["bg"] = ("#BDECB6")
+        self.barra["bg"] = ("#00B2FF")
         self.barra["fg"] = ("#32471F")
         self.barra.grid(row=1, column=0, rowspan=2, pady=57)
 
         '#Segundo container da janela'
         self.segundoContainer = tk.Frame(master)
-        self.segundoContainer["bg"] = ("#BDECB6")
+        self.segundoContainer["bg"] = ("#00B2FF")
         self.segundoContainer.pack()
 
         '#Descrição'
@@ -447,12 +447,12 @@ class TelaIncial:
         self.descricao["text"] = ("Seja bem-vindo, entre com seus dados:")
         self.descricao["fg"] = ("#5E8300")
         self.descricao["font"] = ("Britannic Bold", "11")
-        self.descricao["bg"] = ("#BDECB6")
+        self.descricao["bg"] = ("#00B2FF")
         self.descricao.grid(row=2, column=1, pady=10)
 
         '#Terceiro container da janela'
         self.terceiroContainer = tk.Frame(master)
-        self.terceiroContainer["bg"] = ("#BDECB6")
+        self.terceiroContainer["bg"] = ("#00B2FF")
         self.terceiroContainer.pack()
 
         '#Login e configurações'
@@ -460,7 +460,7 @@ class TelaIncial:
         self.login["text"] = ("Login:")
         self.login["fg"] = ("#32471F")
         self.login["font"] = ("Britannic Bold", "11")
-        self.login["bg"] = ("#BDECB6")
+        self.login["bg"] = ("#00B2FF")
         self.login.grid(row=3, column=1)
 
         '#Campo do login'
@@ -471,7 +471,7 @@ class TelaIncial:
 
         '#Quarto container da janela'
         self.quartoContainer = tk.Frame(master)
-        self.quartoContainer["bg"] = ("#BDECB6")
+        self.quartoContainer["bg"] = ("#00B2FF")
         self.quartoContainer.pack()
 
         '#Senha e configurações'
@@ -479,7 +479,7 @@ class TelaIncial:
         self.senha["text"] = ("Senha:")
         self.senha["fg"] = ("#32471F")
         self.senha["font"] = ("Britannic Bold", "11")
-        self.senha["bg"] = ("#BDECB6")
+        self.senha["bg"] = ("#00B2FF")
         self.senha.grid(row=4, column=1, pady=5)
 
         '#Campo do senha'
@@ -491,7 +491,7 @@ class TelaIncial:
 
         '#Quinta container da janela'
         self.quintoContainer = tk.Frame(master)
-        self.quintoContainer["bg"] = ("#BDECB6")
+        self.quintoContainer["bg"] = ("#00B2FF")
         self.quintoContainer.pack(pady=1)
 
         '#Divisor'
@@ -499,12 +499,12 @@ class TelaIncial:
         self.senha["text"] = ("ou")
         self.senha["fg"] = ("#32471F")
         self.senha["font"] = ("Britannic Bold", "9")
-        self.senha["bg"] = ("#BDECB6")
+        self.senha["bg"] = ("#00B2FF")
         self.senha.grid(row=5, column=1)
 
         '#Sexto container da janela'
         self.sextoContainer = tk.Frame(master)
-        self.sextoContainer["bg"] = ("#BDECB6")
+        self.sextoContainer["bg"] = ("#00B2FF")
         self.sextoContainer.pack(pady=1)
 
         '#Biometria'
@@ -512,7 +512,7 @@ class TelaIncial:
         self.biometria["text"] = ("Digital:")
         self.biometria["fg"] = ("#32471F")
         self.biometria["font"] = ("Britannic Bold", "11")
-        self.biometria["bg"] = ("#BDECB6")
+        self.biometria["bg"] = ("#00B2FF")
         self.biometria.grid(row=6, column=1)
 
         '#Botão da biometria'
@@ -521,15 +521,15 @@ class TelaIncial:
         self.campoBiometria["width"] = 29
         self.campoBiometria["command"] = self.abrirArquivo
         self.campoBiometria["bd"] = 0
-        self.campoBiometria["activebackground"] = ("#BDECB6")
+        self.campoBiometria["activebackground"] = ("#00B2FF")
         self.campoBiometria["font"] = ("calibri", "10", "bold")
         self.campoBiometria["fg"] = ("#5E8300")
-        self.campoBiometria["bg"] = ("#BDECB6")
+        self.campoBiometria["bg"] = ("#00B2FF")
         self.campoBiometria.grid(row=6, column=2)
 
         '#Setimo container da janela'
         self.setimoContainer = tk.Frame(master)
-        self.setimoContainer["bg"] = ("#BDECB6")
+        self.setimoContainer["bg"] = ("#00B2FF")
         self.setimoContainer.pack(pady=65)
 
         '#Botão Entrar'
@@ -538,7 +538,7 @@ class TelaIncial:
         self.entrar["width"] = 10
         self.entrar["height"] = 1
         self.entrar["bg"] = ("#5E8300")
-        self.entrar["activebackground"] = ("#BDECB6")
+        self.entrar["activebackground"] = ("#00B2FF")
         self.entrar["fg"] = ("white")
         self.entrar["command"] = self.acessoUsuario
         self.entrar["font"] = ("Britannic Bold", "12")
@@ -550,8 +550,8 @@ class TelaIncial:
         self.cadastrar["bd"] = 0
         self.cadastrar["width"] = 12
         self.cadastrar["height"] = 1
-        self.cadastrar["bg"] = ("#BDECB6")
-        self.cadastrar["activebackground"] = ("#BDECB6")
+        self.cadastrar["bg"] = ("#00B2FF")
+        self.cadastrar["activebackground"] = ("#00B2FF")
         self.cadastrar["fg"] = ("#32471F")
         self.cadastrar["command"] = self.abrirCadastro
         self.cadastrar["font"] = ("Britannic Bold", "12")
@@ -559,7 +559,7 @@ class TelaIncial:
 
         root.geometry("350x470")
         root["bd"] = 10
-        root["bg"] = ("#BDECB6")
+        root["bg"] = ("#00B2FF")
         root.resizable(0, 0)
 
     '#Função para abrir arquivo'
@@ -568,7 +568,7 @@ class TelaIncial:
         self.digital = askopenfilename(initialfile="/Desktop",
                                        title="Selecione à sua digital",
                                        filetype=(("Arquivo de imagem", ".jpeg"),
-                                                 ("Arquivo de imagem", ".png", ),
+                                                 ("Arquivo de imagem", ".png",),
                                                  ("Arquivo de imagem", ".jng"),
                                                  ("Arquivo de imagem", ".jpg")))
         self.campoBiometria['text'] = ('Biometria enviada')
@@ -577,6 +577,7 @@ class TelaIncial:
         self.nossaTela.withdraw()
         self.novaTela = tk.Toplevel(self.nossaTela)
         TelaCadastro(self.novaTela, self.nossaTela)
+
     '#Função para acesso a plataforma'
 
     def acessoUsuario(self):
